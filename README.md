@@ -38,23 +38,28 @@ This is a simple implementation of  command-line interpreter for the Unix operat
 File |  Description
 ------------ | -------------
 README.md | README file
-cmd_utils.c |  Functions of previous projects
-error_handler.c | Management errors
-exec.c | File that execute the functions of the OS system
-exec_buil_comm.c | File that execute the builtins functions
-exit.c | Function of exit
-find_path.c | Find the path 
-fork.c | Create a new proccess
-history.c | Create a history and add nodes
+alias_builtins.c | 
+builtin.c | 
+builtins_help_1.c | 
+builtins_help_2.c | 
+env_builtins.c | 
+environ.c | 
+err_msgs1.c | 
+err_msgs2.c | 
+errors.c | 
+getline.c | 
+helper.c | 
+helpers_2.c
+input_helpers.c | 
+linkedlist.c | 
+locate.c | 
+main.c | 
 man_1_simple_shell | manpage
-parser.c | Split the input
-prompt.c | Receives the string of characters
-read_line.c | File that reads a line
-shell.c | Content the main function
+proc_file_comm.c | 
 shell.h | Header file
-stat.c | Verify the status of a command in the system
-strstr.c | Function that returns a number that coincides two strings
-utils.c | Strings functions
+split.c | 
+str_funcs1.c | Function that returns a number that coincides two strings
+str_funcs2.c | 
 
 ----
 ## Quick start
